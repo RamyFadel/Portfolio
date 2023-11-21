@@ -1335,13 +1335,16 @@ textarea.input-field {
   .cv{color:hsl(24, 74%, 58%) ;}
   /* ------------------------------------ */
   @media all and  (max-width:575px) {
-    .photo{margin-left:1rem;margin-top: 5rem;
-      transform: translateY(0.1rem);
-    width: 90%;
+    .photo{
+      transform: translate(0,2rem);
+    width: 100%;
     }
-    .hero-title{transform: translateY(-1.5rem);
-    font-size: x-large;}
-    .hero .btn-primary {    transform: translateY(-30px);}
+    .hero{width:130% ;
+      transform: translate(-3rem,2rem);}
+
+    .hero-title{transform: translateY(-3rem);
+    font-size:40px;}
+    .hero .btn-primary {    transform: translateY(-4rem);}
 
     .child img{width: 200%;
       height: 100%;
