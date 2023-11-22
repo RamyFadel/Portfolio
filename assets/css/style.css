@@ -1355,9 +1355,10 @@ textarea.input-field {
 
 
 @media all and  (min-width:576px) and (max-width:768px) { 
-  .photo{margin-left:1.5rem;margin-top: 5rem;
-    transform: translateY(0.1rem);
-  width: 85%;
+
+  .photo{
+    transform: translate(0,2rem);
+  width: 100%;
   }
   .hero-title{transform: translateY(-2rem);}
   .hero .btn-primary {    transform: translateY(-40px);}
@@ -1370,8 +1371,10 @@ textarea.input-field {
 
 @media all and  (min-width:769px) and (max-width:991px) { 
   .hero .btn-primary {    transform: translateY(-3rem);}
-   .photo{margin-left:5rem;margin-top: 5rem;
-  transform: translateY(0.1rem);}
+  .photo{
+    transform: translate(3rem,2rem);
+  width: 80%;
+  }
   .hero-title{transform: translateY(-2rem);}
 
 }
